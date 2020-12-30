@@ -104,6 +104,7 @@ class Team:
                     overUnder = (cow - 0.5) * 21
                 else:
                     overUnder = 0 - (cow * 21)
+                print(overUnder)
                 if game.win:
                     recordPoints += 100
                 elif game.loss:
